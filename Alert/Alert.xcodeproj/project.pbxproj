@@ -7,92 +7,98 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		AC412AF7219B0B3600DD661F /* Alert.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AC412AED219B0B3600DD661F /* Alert.framework */; };
-		AC412AFC219B0B3600DD661F /* AlertTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC412AFB219B0B3600DD661F /* AlertTests.swift */; };
-		AC412AFE219B0B3600DD661F /* Alert.h in Headers */ = {isa = PBXBuildFile; fileRef = AC412AF0219B0B3600DD661F /* Alert.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		AC412B09219B0B7100DD661F /* Alert.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC412B08219B0B7100DD661F /* Alert.swift */; };
+		80D1D2AF219E632C008A6948 /* Alert.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 80D1D2A5219E632C008A6948 /* Alert.framework */; };
+		80D1D2B4219E632C008A6948 /* AlertTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80D1D2B3219E632C008A6948 /* AlertTests.swift */; };
+		80D1D2B6219E632C008A6948 /* Alert.h in Headers */ = {isa = PBXBuildFile; fileRef = 80D1D2A8219E632C008A6948 /* Alert.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		80D1D2C1219E6343008A6948 /* Alert.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80D1D2C0219E6343008A6948 /* Alert.swift */; };
+		80D1D2C3219E63A1008A6948 /* IDETemplateMacros.plist in Resources */ = {isa = PBXBuildFile; fileRef = 80D1D2C2219E63A1008A6948 /* IDETemplateMacros.plist */; };
+		80D1D2C5219E63C7008A6948 /* AlertType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80D1D2C4219E63C7008A6948 /* AlertType.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		AC412AF8219B0B3600DD661F /* PBXContainerItemProxy */ = {
+		80D1D2B0219E632C008A6948 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = AC412AE4219B0B3500DD661F /* Project object */;
+			containerPortal = 80D1D29C219E632C008A6948 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = AC412AEC219B0B3500DD661F;
+			remoteGlobalIDString = 80D1D2A4219E632C008A6948;
 			remoteInfo = Alert;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		AC412AED219B0B3600DD661F /* Alert.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Alert.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		AC412AF0219B0B3600DD661F /* Alert.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Alert.h; sourceTree = "<group>"; };
-		AC412AF1219B0B3600DD661F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		AC412AF6219B0B3600DD661F /* AlertTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AlertTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		AC412AFB219B0B3600DD661F /* AlertTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertTests.swift; sourceTree = "<group>"; };
-		AC412AFD219B0B3600DD661F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		AC412B08219B0B7100DD661F /* Alert.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Alert.swift; sourceTree = "<group>"; };
+		80D1D2A5219E632C008A6948 /* Alert.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Alert.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		80D1D2A8219E632C008A6948 /* Alert.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Alert.h; sourceTree = "<group>"; };
+		80D1D2A9219E632C008A6948 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		80D1D2AE219E632C008A6948 /* AlertTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AlertTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		80D1D2B3219E632C008A6948 /* AlertTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertTests.swift; sourceTree = "<group>"; };
+		80D1D2B5219E632C008A6948 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		80D1D2C0219E6343008A6948 /* Alert.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Alert.swift; sourceTree = "<group>"; };
+		80D1D2C2219E63A1008A6948 /* IDETemplateMacros.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = IDETemplateMacros.plist; sourceTree = "<group>"; };
+		80D1D2C4219E63C7008A6948 /* AlertType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertType.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		AC412AEA219B0B3500DD661F /* Frameworks */ = {
+		80D1D2A2219E632C008A6948 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		AC412AF3219B0B3600DD661F /* Frameworks */ = {
+		80D1D2AB219E632C008A6948 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AC412AF7219B0B3600DD661F /* Alert.framework in Frameworks */,
+				80D1D2AF219E632C008A6948 /* Alert.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		AC412AE3219B0B3500DD661F = {
+		80D1D29B219E632C008A6948 = {
 			isa = PBXGroup;
 			children = (
-				AC412AEF219B0B3600DD661F /* Alert */,
-				AC412AFA219B0B3600DD661F /* AlertTests */,
-				AC412AEE219B0B3600DD661F /* Products */,
+				80D1D2A7219E632C008A6948 /* Alert */,
+				80D1D2B2219E632C008A6948 /* AlertTests */,
+				80D1D2A6219E632C008A6948 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		AC412AEE219B0B3600DD661F /* Products */ = {
+		80D1D2A6219E632C008A6948 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				AC412AED219B0B3600DD661F /* Alert.framework */,
-				AC412AF6219B0B3600DD661F /* AlertTests.xctest */,
+				80D1D2A5219E632C008A6948 /* Alert.framework */,
+				80D1D2AE219E632C008A6948 /* AlertTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		AC412AEF219B0B3600DD661F /* Alert */ = {
+		80D1D2A7219E632C008A6948 /* Alert */ = {
 			isa = PBXGroup;
 			children = (
-				AC412AF0219B0B3600DD661F /* Alert.h */,
-				AC412AF1219B0B3600DD661F /* Info.plist */,
-				AC412B07219B0B5A00DD661F /* Source */,
+				80D1D2BF219E6338008A6948 /* Source */,
+				80D1D2A8219E632C008A6948 /* Alert.h */,
+				80D1D2A9219E632C008A6948 /* Info.plist */,
+				80D1D2C2219E63A1008A6948 /* IDETemplateMacros.plist */,
 			);
 			path = Alert;
 			sourceTree = "<group>";
 		};
-		AC412AFA219B0B3600DD661F /* AlertTests */ = {
+		80D1D2B2219E632C008A6948 /* AlertTests */ = {
 			isa = PBXGroup;
 			children = (
-				AC412AFB219B0B3600DD661F /* AlertTests.swift */,
-				AC412AFD219B0B3600DD661F /* Info.plist */,
+				80D1D2B3219E632C008A6948 /* AlertTests.swift */,
+				80D1D2B5219E632C008A6948 /* Info.plist */,
 			);
 			path = AlertTests;
 			sourceTree = "<group>";
 		};
-		AC412B07219B0B5A00DD661F /* Source */ = {
+		80D1D2BF219E6338008A6948 /* Source */ = {
 			isa = PBXGroup;
 			children = (
-				AC412B08219B0B7100DD661F /* Alert.swift */,
+				80D1D2C0219E6343008A6948 /* Alert.swift */,
+				80D1D2C4219E63C7008A6948 /* AlertType.swift */,
 			);
 			path = Source;
 			sourceTree = "<group>";
@@ -100,25 +106,25 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		AC412AE8219B0B3500DD661F /* Headers */ = {
+		80D1D2A0219E632C008A6948 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AC412AFE219B0B3600DD661F /* Alert.h in Headers */,
+				80D1D2B6219E632C008A6948 /* Alert.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		AC412AEC219B0B3500DD661F /* Alert */ = {
+		80D1D2A4219E632C008A6948 /* Alert */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = AC412B01219B0B3600DD661F /* Build configuration list for PBXNativeTarget "Alert" */;
+			buildConfigurationList = 80D1D2B9219E632C008A6948 /* Build configuration list for PBXNativeTarget "Alert" */;
 			buildPhases = (
-				AC412AE8219B0B3500DD661F /* Headers */,
-				AC412AE9219B0B3500DD661F /* Sources */,
-				AC412AEA219B0B3500DD661F /* Frameworks */,
-				AC412AEB219B0B3500DD661F /* Resources */,
+				80D1D2A0219E632C008A6948 /* Headers */,
+				80D1D2A1219E632C008A6948 /* Sources */,
+				80D1D2A2219E632C008A6948 /* Frameworks */,
+				80D1D2A3219E632C008A6948 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -126,73 +132,74 @@
 			);
 			name = Alert;
 			productName = Alert;
-			productReference = AC412AED219B0B3600DD661F /* Alert.framework */;
+			productReference = 80D1D2A5219E632C008A6948 /* Alert.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		AC412AF5219B0B3600DD661F /* AlertTests */ = {
+		80D1D2AD219E632C008A6948 /* AlertTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = AC412B04219B0B3600DD661F /* Build configuration list for PBXNativeTarget "AlertTests" */;
+			buildConfigurationList = 80D1D2BC219E632C008A6948 /* Build configuration list for PBXNativeTarget "AlertTests" */;
 			buildPhases = (
-				AC412AF2219B0B3600DD661F /* Sources */,
-				AC412AF3219B0B3600DD661F /* Frameworks */,
-				AC412AF4219B0B3600DD661F /* Resources */,
+				80D1D2AA219E632C008A6948 /* Sources */,
+				80D1D2AB219E632C008A6948 /* Frameworks */,
+				80D1D2AC219E632C008A6948 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				AC412AF9219B0B3600DD661F /* PBXTargetDependency */,
+				80D1D2B1219E632C008A6948 /* PBXTargetDependency */,
 			);
 			name = AlertTests;
 			productName = AlertTests;
-			productReference = AC412AF6219B0B3600DD661F /* AlertTests.xctest */;
+			productReference = 80D1D2AE219E632C008A6948 /* AlertTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		AC412AE4219B0B3500DD661F /* Project object */ = {
+		80D1D29C219E632C008A6948 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 1010;
 				LastUpgradeCheck = 1010;
-				ORGANIZATIONNAME = "Tong Tian";
+				ORGANIZATIONNAME = AGGWIN;
 				TargetAttributes = {
-					AC412AEC219B0B3500DD661F = {
+					80D1D2A4219E632C008A6948 = {
 						CreatedOnToolsVersion = 10.1;
 						LastSwiftMigration = 1010;
 					};
-					AC412AF5219B0B3600DD661F = {
+					80D1D2AD219E632C008A6948 = {
 						CreatedOnToolsVersion = 10.1;
 					};
 				};
 			};
-			buildConfigurationList = AC412AE7219B0B3500DD661F /* Build configuration list for PBXProject "Alert" */;
+			buildConfigurationList = 80D1D29F219E632C008A6948 /* Build configuration list for PBXProject "Alert" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 			);
-			mainGroup = AC412AE3219B0B3500DD661F;
-			productRefGroup = AC412AEE219B0B3600DD661F /* Products */;
+			mainGroup = 80D1D29B219E632C008A6948;
+			productRefGroup = 80D1D2A6219E632C008A6948 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				AC412AEC219B0B3500DD661F /* Alert */,
-				AC412AF5219B0B3600DD661F /* AlertTests */,
+				80D1D2A4219E632C008A6948 /* Alert */,
+				80D1D2AD219E632C008A6948 /* AlertTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		AC412AEB219B0B3500DD661F /* Resources */ = {
+		80D1D2A3219E632C008A6948 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				80D1D2C3219E63A1008A6948 /* IDETemplateMacros.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		AC412AF4219B0B3600DD661F /* Resources */ = {
+		80D1D2AC219E632C008A6948 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -202,34 +209,35 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		AC412AE9219B0B3500DD661F /* Sources */ = {
+		80D1D2A1219E632C008A6948 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AC412B09219B0B7100DD661F /* Alert.swift in Sources */,
+				80D1D2C5219E63C7008A6948 /* AlertType.swift in Sources */,
+				80D1D2C1219E6343008A6948 /* Alert.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		AC412AF2219B0B3600DD661F /* Sources */ = {
+		80D1D2AA219E632C008A6948 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AC412AFC219B0B3600DD661F /* AlertTests.swift in Sources */,
+				80D1D2B4219E632C008A6948 /* AlertTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		AC412AF9219B0B3600DD661F /* PBXTargetDependency */ = {
+		80D1D2B1219E632C008A6948 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = AC412AEC219B0B3500DD661F /* Alert */;
-			targetProxy = AC412AF8219B0B3600DD661F /* PBXContainerItemProxy */;
+			target = 80D1D2A4219E632C008A6948 /* Alert */;
+			targetProxy = 80D1D2B0219E632C008A6948 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		AC412AFF219B0B3600DD661F /* Debug */ = {
+		80D1D2B7219E632C008A6948 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -293,7 +301,7 @@
 			};
 			name = Debug;
 		};
-		AC412B00219B0B3600DD661F /* Release */ = {
+		80D1D2B8219E632C008A6948 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -351,7 +359,7 @@
 			};
 			name = Release;
 		};
-		AC412B02219B0B3600DD661F /* Debug */ = {
+		80D1D2BA219E632C008A6948 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
@@ -368,7 +376,7 @@
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.aggwin.Alert;
+				PRODUCT_BUNDLE_IDENTIFIER = www.aggwin.Alert;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
@@ -377,7 +385,7 @@
 			};
 			name = Debug;
 		};
-		AC412B03219B0B3600DD661F /* Release */ = {
+		80D1D2BB219E632C008A6948 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
@@ -394,7 +402,7 @@
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.aggwin.Alert;
+				PRODUCT_BUNDLE_IDENTIFIER = www.aggwin.Alert;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 4.2;
@@ -402,7 +410,7 @@
 			};
 			name = Release;
 		};
-		AC412B05219B0B3600DD661F /* Debug */ = {
+		80D1D2BD219E632C008A6948 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
@@ -413,14 +421,14 @@
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.aggwin.AlertTests;
+				PRODUCT_BUNDLE_IDENTIFIER = www.aggwin.AlertTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
-		AC412B06219B0B3600DD661F /* Release */ = {
+		80D1D2BE219E632C008A6948 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
@@ -431,7 +439,7 @@
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.aggwin.AlertTests;
+				PRODUCT_BUNDLE_IDENTIFIER = www.aggwin.AlertTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -441,34 +449,34 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		AC412AE7219B0B3500DD661F /* Build configuration list for PBXProject "Alert" */ = {
+		80D1D29F219E632C008A6948 /* Build configuration list for PBXProject "Alert" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				AC412AFF219B0B3600DD661F /* Debug */,
-				AC412B00219B0B3600DD661F /* Release */,
+				80D1D2B7219E632C008A6948 /* Debug */,
+				80D1D2B8219E632C008A6948 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		AC412B01219B0B3600DD661F /* Build configuration list for PBXNativeTarget "Alert" */ = {
+		80D1D2B9219E632C008A6948 /* Build configuration list for PBXNativeTarget "Alert" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				AC412B02219B0B3600DD661F /* Debug */,
-				AC412B03219B0B3600DD661F /* Release */,
+				80D1D2BA219E632C008A6948 /* Debug */,
+				80D1D2BB219E632C008A6948 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		AC412B04219B0B3600DD661F /* Build configuration list for PBXNativeTarget "AlertTests" */ = {
+		80D1D2BC219E632C008A6948 /* Build configuration list for PBXNativeTarget "AlertTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				AC412B05219B0B3600DD661F /* Debug */,
-				AC412B06219B0B3600DD661F /* Release */,
+				80D1D2BD219E632C008A6948 /* Debug */,
+				80D1D2BE219E632C008A6948 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = AC412AE4219B0B3500DD661F /* Project object */;
+	rootObject = 80D1D29C219E632C008A6948 /* Project object */;
 }

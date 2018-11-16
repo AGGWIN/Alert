@@ -1,12 +1,12 @@
 //
-//  Alert.swift
+//  AlertType.swift
 //  Alert
 //
 //  Copyright © 2018 AGGWIN. All rights reserved.
 //
 
-import UIKit
+import Foundation
 
-public class Alert: UIView {
+public enum AlertType {
     
 }

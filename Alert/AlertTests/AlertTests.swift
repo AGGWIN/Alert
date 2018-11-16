@@ -2,8 +2,8 @@
 //  AlertTests.swift
 //  AlertTests
 //
-//  Created by Tong Tian on 2018/11/13.
-//  Copyright © 2018 Tong Tian. All rights reserved.
+//  Created by Aim Goals on 2018/11/16.
+//  Copyright © 2018 AGGWIN. All rights reserved.
 //
 
 import XCTest
