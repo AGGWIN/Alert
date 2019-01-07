@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		35D9891421E2DC9D003B917C /* UIView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35D9891321E2DC9D003B917C /* UIView+Extension.swift */; };
 		80D1D2AF219E632C008A6948 /* Alert.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 80D1D2A5219E632C008A6948 /* Alert.framework */; };
 		80D1D2B4219E632C008A6948 /* AlertTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80D1D2B3219E632C008A6948 /* AlertTests.swift */; };
 		80D1D2B6219E632C008A6948 /* Alert.h in Headers */ = {isa = PBXBuildFile; fileRef = 80D1D2A8219E632C008A6948 /* Alert.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -26,6 +27,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		35D9891321E2DC9D003B917C /* UIView+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Extension.swift"; sourceTree = "<group>"; };
 		80D1D2A5219E632C008A6948 /* Alert.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Alert.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		80D1D2A8219E632C008A6948 /* Alert.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Alert.h; sourceTree = "<group>"; };
 		80D1D2A9219E632C008A6948 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -56,6 +58,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		35D9891221E2DC5C003B917C /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				35D9891321E2DC9D003B917C /* UIView+Extension.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
 		80D1D29B219E632C008A6948 = {
 			isa = PBXGroup;
 			children = (
@@ -78,6 +88,7 @@
 			isa = PBXGroup;
 			children = (
 				80D1D2BF219E6338008A6948 /* Source */,
+				35D9891221E2DC5C003B917C /* Extensions */,
 				80D1D2A8219E632C008A6948 /* Alert.h */,
 				80D1D2A9219E632C008A6948 /* Info.plist */,
 				80D1D2C2219E63A1008A6948 /* IDETemplateMacros.plist */,
@@ -213,6 +224,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				35D9891421E2DC9D003B917C /* UIView+Extension.swift in Sources */,
 				80D1D2C5219E63C7008A6948 /* AlertType.swift in Sources */,
 				80D1D2C1219E6343008A6948 /* Alert.swift in Sources */,
 			);

@@ -8,5 +8,7 @@
 import Foundation
 
 public enum AlertType {
-    
+    case success
+    case warning
+    case error
 }
