@@ -9,9 +9,15 @@ import UIKit
 
 public class Alert: UIView {
     
+    let title: String
+    let type: AlertType
+    
     public init(title: String, type: AlertType) {
+        self.title = title
+        self.type = type
         super.init(frame: .zero)
         
+        translatesAutoresizingMaskIntoConstraints = false
         setupViews()
     }
     
@@ -19,36 +25,57 @@ public class Alert: UIView {
     
     let contentView: UIView = {
         let view = UIView()
-        view.backgroundColor = UIColor.cyan
         view.layer.cornerRadius = 5
         view.layer.shadowColor = UIColor.lightGray.cgColor
         view.layer.shadowOpacity = 0.5
         view.layer.shadowOffset = .zero
         view.layer.shadowRadius = 5
+        view.alpha = 0.9
+        return view
+    }()
+    
+    lazy var stackView: UIStackView = {
+        let view = UIStackView()
+        view.axis = .horizontal
+        view.alignment = .center
+        view.distribution = .equalCentering
+        view.spacing = 10
         return view
     }()
     
     let iconView: UIImageView = {
         let imageView = UIImageView()
-        imageView.image = UIImage(named: "alert_ic_error")
-        imageView.tintColor = .black
+        imageView.tintColor = .white
         return imageView
+    }()
+    
+    let titleLabel: UILabel = {
+        let label = UILabel()
+        label.font = UIFont.boldSystemFont(ofSize: 18)
+        label.textColor = .white
+        return label
     }()
     
     func setupViews() {
         let width = UIScreen.main.bounds.width
+        
         addSubview(contentView)
+        contentView.backgroundColor = type.color
+        addConstraints(format: "H:|-10-[v0(\(width - 20))]-10-|", views: contentView)
+        addConstraints(format: "V:|-(-44)-[v0(44)]|", views: contentView)
         
-        addConstraints(format: "H:|-20-[v0(\(width - 40))]-20-|", views: contentView)
-        addConstraints(format: "V:|-(-44)-[v0(44)]", views: contentView)
+        addSubview(stackView)
+        addConstraints(format: "V:|-(-44)-[v0(44)]|", views: stackView)
+        stackView.centerXAnchor.constraint(equalTo: centerXAnchor).isActive = true
+        stackView.leadingAnchor.constraint(greaterThanOrEqualTo: leadingAnchor, constant: 20).isActive = true
+        stackView.trailingAnchor.constraint(lessThanOrEqualTo: trailingAnchor, constant: -20).isActive = true
         
-        contentView.addSubview(iconView)
-        contentView.addConstraints(format: "H:[v0(20)]", views: iconView)
-        contentView.addConstraints(format: "V:[v0(20)]", views: iconView)
-        iconView.centerXAnchor.constraint(equalTo: contentView.centerXAnchor).isActive = true
-        iconView.centerYAnchor.constraint(equalTo: contentView.centerYAnchor).isActive = true
+        iconView.setContentCompressionResistancePriority(UILayoutPriority.defaultHigh + 1, for: .horizontal)
+        iconView.image = type.icon
+        stackView.addArrangedSubview(iconView)
         
-        print(UIView.hasTopNotch)
+        titleLabel.text = title
+        stackView.addArrangedSubview(titleLabel)
     }
     
     public func show() {
@@ -56,7 +83,7 @@ public class Alert: UIView {
         window.addSubview(self)
         
         let y: CGFloat = UIView.hasTopNotch ? 88 : 64
-        UIView.animate(withDuration: 0.3, delay: 1.5, animations: {
+        UIView.animate(withDuration: 0.2, animations: {
             self.transform = CGAffineTransform(translationX: 0, y: y)
         }) { _ in
             UIView.animate(withDuration: 0.3, delay: 1.5, animations: {

@@ -2,7 +2,6 @@
 //  UIView+Extension.swift
 //  Alert
 //
-//  Created by TTSY on 2019/1/7.
 //  Copyright © 2019 AGGWIN. All rights reserved.
 //
 
