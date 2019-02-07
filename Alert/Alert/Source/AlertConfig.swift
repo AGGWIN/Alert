@@ -6,12 +6,16 @@
 //  Copyright © 2019 AGGWIN. All rights reserved.
 //
 
-import Foundation
+import UIKit
 
 public class AlertConfig {
     
-    static let showTime: Double = 2.0
-    static let appearDuration: Double = 0.2
-    static let disappearDuration: Double = 0.3
+    static var showTime: Double = 2.0
+    static var appearDuration: Double = 0.2
+    static var disappearDuration: Double = 0.3
+    
+    static var successColor: UIColor = UIColor.fromHEX("#33CD63")
+    static var warningColor: UIColor = UIColor.fromHEX("#FFA616")
+    static var errorColor: UIColor = UIColor.fromHEX("#F8493B")
     
 }

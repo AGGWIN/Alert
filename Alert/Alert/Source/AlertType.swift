@@ -19,11 +19,11 @@ public enum AlertType: String {
     public var color: UIColor? {
         switch self {
         case .success:
-            return UIColor.fromHEX("#33CD63")
+            return AlertConfig.successColor
         case .warning:
-            return UIColor.fromHEX("#FFA616")
+            return AlertConfig.warningColor
         case .error:
-            return UIColor.fromHEX("#F8493B")
+            return AlertConfig.errorColor
         }
     }
     
