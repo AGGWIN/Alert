@@ -10,12 +10,12 @@ import UIKit
 
 public class AlertConfig {
     
-    static var showTime: Double = 2.0
-    static var appearDuration: Double = 0.2
-    static var disappearDuration: Double = 0.3
+    public static var showTime: Double = 2.0
+    public static var appearDuration: Double = 0.2
+    public static var disappearDuration: Double = 0.3
     
-    static var successColor: UIColor = UIColor.fromHEX("#33CD63")
-    static var warningColor: UIColor = UIColor.fromHEX("#FFA616")
-    static var errorColor: UIColor = UIColor.fromHEX("#F8493B")
+    public static var successColor: UIColor = UIColor.fromHEX("#33CD63")
+    public static var warningColor: UIColor = UIColor.fromHEX("#FFA616")
+    public static var errorColor: UIColor = UIColor.fromHEX("#F8493B")
     
 }
