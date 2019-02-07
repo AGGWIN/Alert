@@ -22,6 +22,7 @@
 		AC09EAC021E3876F005D49CA /* warning@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = AC09EABE21E3876F005D49CA /* warning@2x.png */; };
 		AC09EAC121E3876F005D49CA /* warning@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = AC09EABF21E3876F005D49CA /* warning@3x.png */; };
 		AC09EAC321E38964005D49CA /* UILayoutPriority+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC09EAC221E38964005D49CA /* UILayoutPriority+Extension.swift */; };
+		AC68CC9B220BBD3D00E1A529 /* AlertConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC68CC9A220BBD3D00E1A529 /* AlertConfig.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,7 @@
 		AC09EABE21E3876F005D49CA /* warning@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "warning@2x.png"; sourceTree = "<group>"; };
 		AC09EABF21E3876F005D49CA /* warning@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "warning@3x.png"; sourceTree = "<group>"; };
 		AC09EAC221E38964005D49CA /* UILayoutPriority+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UILayoutPriority+Extension.swift"; sourceTree = "<group>"; };
+		AC68CC9A220BBD3D00E1A529 /* AlertConfig.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertConfig.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -129,6 +131,7 @@
 			children = (
 				80D1D2C0219E6343008A6948 /* Alert.swift */,
 				80D1D2C4219E63C7008A6948 /* AlertType.swift */,
+				AC68CC9A220BBD3D00E1A529 /* AlertConfig.swift */,
 			);
 			path = Source;
 			sourceTree = "<group>";
@@ -262,6 +265,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AC68CC9B220BBD3D00E1A529 /* AlertConfig.swift in Sources */,
 				AC09EAC321E38964005D49CA /* UILayoutPriority+Extension.swift in Sources */,
 				35D9891421E2DC9D003B917C /* UIView+Extension.swift in Sources */,
 				80D1D2C5219E63C7008A6948 /* AlertType.swift in Sources */,

@@ -83,10 +83,10 @@ public class Alert: UIView {
         window.addSubview(self)
         
         let y: CGFloat = UIView.hasTopNotch ? 88 : 64
-        UIView.animate(withDuration: 0.2, animations: {
+        UIView.animate(withDuration: AlertConfig.appearDuration, animations: {
             self.transform = CGAffineTransform(translationX: 0, y: y)
         }) { _ in
-            UIView.animate(withDuration: 0.3, delay: 1.5, animations: {
+            UIView.animate(withDuration: AlertConfig.disappearDuration, delay: AlertConfig.showTime, animations: {
                 self.transform = CGAffineTransform(translationX: 0, y: -y)
             }) { _ in
                 self.removeFromSuperview()
